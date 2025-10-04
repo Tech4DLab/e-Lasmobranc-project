@@ -67,7 +67,7 @@ Classes are **ordered by visual similarity** and follow the **order–family–s
 P-TS serves as the baseline, showing higher or similar error rates in fine-grained categories, while **P-TS+B achieves the most significant improvements**, especially in the most challenging groups. A slight performance drop is observed in one typically easy class, likely due to the integration of fine-grained attention maps. The **P-TS+SB variant**, applied selectively at family and species levels, further refines distinctions in the hardest categories, though it remains slightly below P-TS+B overall.
 
 <p align="center">
-  <img src="images/confus.png" alt="Prototype-Guided Attention Method" width="900"/>
+  <img src="images/confus.png" alt="Confusion matrices for species-level classification" width="900"/>
 </p>
 
 ## 🧠 Attention Maps 
@@ -78,7 +78,7 @@ Although the attention maps generally emphasize distinctive morphological traits
 Despite this, the integration of schematic prototypes significantly improves focus on taxonomically relevant regions compared to vanilla CLIP.
 
 <p align="center">
-  <img src="images/heat.png" alt="Prototype-Guided Attention Method" width="900"/>
+  <img src="images/heat.png" alt="Attention maps highlighting prototype-similar features" width="900"/>
 </p>
 
 ## ⚙️ Effect of Attention Bias Configuration
@@ -87,7 +87,7 @@ The figure below shows the impact of different **α values** (bias multipliers) 
 Both **balanced accuracy** (left) and **accuracy** (right) are reported. Adjusting α and selecting appropriate layers significantly influences the model’s ability to focus on relevant regions, with certain configurations yielding clear performance gains.
 
 <p align="center">
-  <img src="images/bias_config.png" width="600"/>
+  <img src="images/bias_config.png" alt="Bias configuration results" width="600"/>
 </p>
 
 # 🏁 Conclusions
