@@ -1,0 +1,6 @@
+prompts_Animal = {'shark': ['Shark'], 'stingray': ['Stingray']}
+prompts_Family_cacharhiniformes = {'scyliorhinidae': ['Shark elongated narrow silhouette, light brown tone patterned with round black speckles'], 'triakidae': ['Shark slim narrow form and gray coloration']}
+prompts_Order_shark = {'carcharhiniformes': ['Shark slim elongated figure and white-edged oval spots'], 'squaliformes': ['Shark with a fat triangular body, stout compressed silhouette']}
+prompts_Our_Name_triakidae = {'musola': ['Shark elongated slender build, pointed profile, small mouth, uniform light gray or brown'], 'cazon': ['Shark narrow elongated outline, long snout, second dorsal fin small like anal, deep notched caudal fin, light gray body, white belly']}
+prompts_Order_stingray = {'torpediniformes': ['Stingray rounded silhouette, brown shade covered in patches.'], 'rajiformes': ['Stingray diamond-shaped figure, slender elongated tail tip, brown-gray body with dark banding, prominent circular mark in each fin, pale underside, pelvic fins gray.']}
+prompts_Our_Name_scyliorhinidae = {'bocanegra': ['Shark elongated slender body, long low anal fin, narrow caudal fin ridged, gray or brownish red coloration with oval markings bordered in white'], 'pintarroja': ['Shark slender long body and dotted with tiny black speckles']}
