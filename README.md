@@ -78,7 +78,7 @@ Although the attention maps generally emphasize distinctive morphological traits
 Despite this, the integration of schematic prototypes significantly improves focus on taxonomically relevant regions compared to vanilla CLIP.
 
 <p align="center">
-  <img src="images/heatmaps.png" alt="Attention maps highlighting prototype-similar features" width="900"/>
+  <img src="images/heatmaps.png" alt="Attention maps highlighting prototype-similar features" width="700"/>
 </p>
 
 ## ⚙️ Effect of Attention Bias Configuration
@@ -87,7 +87,7 @@ The figure below shows the impact of different **α values** (bias multipliers) 
 Both **balanced accuracy** (left) and **accuracy** (right) are reported. Adjusting α and selecting appropriate layers significantly influences the model’s ability to focus on relevant regions, with certain configurations yielding clear performance gains.
 
 <p align="center">
-  <img src="images/graph.png" alt="Bias configuration results" width="600"/>
+  <img src="images/graph.png" alt="Bias configuration results" width="900"/>
 </p>
 
 # 🏁 Conclusions
