@@ -18,12 +18,14 @@ The method consists of **two main stages**:
 <p align="center">
   <img src="images/method1.png" alt="Prompt Extraction and Validation Method" width="900"/>
 </p>
+
 Expert-based descriptions and their automatically generated variations are evaluated for their **similarity to visual prototypes** derived from schematic illustrations. The most discriminative prompts are selected by ensuring **intra-class validity** (faithful representation of the target category) and **inter-class validity** (sufficient separation from other classes), which is crucial in low-variability scenarios. Additionally, **taxonomy-aware classification strategies** are applied to exploit the biological hierarchy and reduce ambiguity.
 
 ### 🔸 Prototype-Guided Attention  
 <p align="center">
   <img src="images/method2.png" alt="Prototype-Guided Attention Method" width="900"/>
 </p>
+
 Illustrations are used to emphasize distinctive and shared traits within each category when processing real images. These highlighted features are **automatically integrated into CLIP’s attention mechanism**, guiding the model to focus on the most relevant regions and improving alignment with the optimized prompts.
 
 ## 📈 Performance
